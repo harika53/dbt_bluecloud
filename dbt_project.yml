@@ -7,7 +7,7 @@ version: '1.0.0'
 config-version: 2
 
 vars: 
-  payment_status: 'fail'
+  payment_status: 'success'
 
 # This setting configures which "profile" dbt uses for this project.
 profile: 'blue_cloud'
