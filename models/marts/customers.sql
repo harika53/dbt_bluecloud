@@ -18,3 +18,4 @@ left join orders on customers.cust_id= orders.user_id
 
 
 select * from final
+where cust_id =1
