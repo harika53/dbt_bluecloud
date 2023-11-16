@@ -1,0 +1,15 @@
+version: 2
+
+models: 
+  - name: stg_customers
+    columns:
+      - name: cust_id
+        tags: 
+          - id
+        tests:
+          - unique:
+              config:
+                where: "cust_id > 21"
+          
+          
+

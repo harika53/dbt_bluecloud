@@ -1,0 +1,19 @@
+version: 2  
+
+models: 
+  - name: stg_orders
+    tags:
+      - hourly
+      - hyderabad
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      
+      - name: user_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: cust_id

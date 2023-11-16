@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: customers
+    +tags: "hyderabad" 
+    columns:
+      - name: cust_id
+        tags:
+          - id
+        tests:
+          - not_null
+
+  
+
