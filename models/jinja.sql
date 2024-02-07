@@ -17,7 +17,7 @@
 
 
 
-{% set temperature = 60.0 %} 
+--{% set temperature = 60.0 %} 
 
 On a day like this, I especially like
 
